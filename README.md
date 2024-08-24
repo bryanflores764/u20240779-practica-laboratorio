@@ -1,1 +1,1 @@
-# u20240779-tarea-2
+# u20240779-practicas-laboratorio
