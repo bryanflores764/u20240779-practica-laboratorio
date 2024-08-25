@@ -14,4 +14,4 @@ console.log(fechaDiferencia1)
 let fechaDiferencia2 = new Date('2005-09-12')
 console.log(fechaDiferencia2)
 
-console.log(calcularFechas(fechaDiferencia1,fechaDiferencia2));
+console.log(`Los dias de fiferencia de las 2  fechas dadas son: ${calcularFechas(fechaDiferencia1,fechaDiferencia2)}`);
