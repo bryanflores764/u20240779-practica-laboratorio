@@ -1,3 +1,9 @@
+//Desafío: Simulación de Pedido de Comida.
+// Crear una función que simule el procesamiento de un pedido de comida usando una
+// promesa. La promesa debe resolver si el pedido se realiza correctamente y rechazar
+// en caso de error.
+
+
 function solicitarPedido() {
     return new Promise((resolve, reject) => {
       let pedidoEcho = true; // si pone false o true simula la solucion de la promesa
