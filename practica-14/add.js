@@ -1,15 +1,20 @@
 const fs = require('fs')
 
-const filename = './veiculos.json'
+const filename = './vehiculos.json'
 
-fs.readFile(filename,'utf8',(error ,data)=>{
-    if(error){
-        console.log("Error al leer el archivo JSOn: ",error)
-        return;
-    }try{
-        const ObjetoJson = JSON.parse(data)
-        console.log("Flota de vehiculos: ",ObjetoJson)
-    }catch(error){
-        console.error("error al Parsear el archivo JSOn")
-    }
-})
+
+const Leer = ()=>{
+    fs.readFile(filename,'utf8',(error ,data)=>{
+        if(error){
+            console.log("Error al leer el archivo JSOn: ",error)
+            return;
+        }try{
+            const ObjetoJson = JSON.parse(data)
+            console.log("Flota de vehiculos: ",ObjetoJson)
+        }catch(error){
+            console.error("error al Parsear el archivo JSOn")
+        }
+    })
+}
+
+module.exports= Leer;

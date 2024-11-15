@@ -9,18 +9,12 @@
     "id": 2,
     "marca": "honda",
     "modelo": "civic",
-    "año": 2029
+    "año": 2019
   },
   {
     "id": 3,
     "marca": "ford",
     "modelo": "focus",
     "año": 2021
-  },
-  {
-    "id": 4,
-    "marca": "Nissan",
-    "modelo": "datsun",
-    "año": 2030
   }
 ]
