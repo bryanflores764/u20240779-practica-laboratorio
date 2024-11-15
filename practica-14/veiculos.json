@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "marca": "toyota",
+    "modelo": "corolla",
+    "año": 2020
+  },
+  {
+    "id": 2,
+    "marca": "honda",
+    "modelo": "civic",
+    "año": 2029
+  },
+  {
+    "id": 3,
+    "marca": "ford",
+    "modelo": "focus",
+    "año": 2021
+  },
+  {
+    "id": 4,
+    "marca": "Nissan",
+    "modelo": "datsun",
+    "año": 2030
+  }
+]
